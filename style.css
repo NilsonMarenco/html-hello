@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  strong {
+    font-weight: 900;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  
+  .post {
+    width: 300px;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  
+  .horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  
+  .logo {
+    width: 2rem;
+  }
+  
+  .menu {
+    width: 2rem;
+  }
+  
+  .header-text {
+    width: 100%;
+    gap: 0.1rem;
+  }
